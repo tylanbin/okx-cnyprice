@@ -1,0 +1,24 @@
+{
+  "name": "okx-cnyprice",
+  "version": "1.0.0",
+  "description": "Get mark price from okx and convert them to CNY.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tylanbin/okx-cnyprice.git"
+  },
+  "keywords": [
+    "okx",
+    "markprice",
+    "price",
+    "cny"
+  ],
+  "author": "tylanbin",
+  "license": "ISC",
+  "dependencies": {
+    "okx-markprice": "^1.0.2"
+  }
+}
