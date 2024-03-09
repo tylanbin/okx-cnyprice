@@ -7,11 +7,11 @@ async function getCnyPrice(instId) {
             const price = await mp.getMarkPrice(instId);
             let url = 'https://www.okx.com/api/v5/market/exchange-rate';
             const response = await axios.get(url, {
-                proxy: {
+                /* proxy: {
                     protocol: 'http',
                     host: '127.0.0.1',
                     port: 1081
-                }
+                } */
             });
             const rate = parseFloat(response.data.data[0].usdCny);
             return (price * rate).toFixed(2);
