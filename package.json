@@ -1,6 +1,6 @@
 {
   "name": "okx-cnyprice",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Get mark price from okx and convert them to CNY.",
   "main": "index.js",
   "scripts": {
